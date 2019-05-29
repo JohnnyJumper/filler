@@ -1,1 +1,11 @@
-filler->player = X
+enemy->player = X
+player = O
+
+map Size:
+height = 15
+width = 17
+
+getting my piece
+
+.**
+end of logs

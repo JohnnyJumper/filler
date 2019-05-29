@@ -18,7 +18,7 @@ IDIR = ./include
 _DEPS = filler.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-SRC = filler.c
+SRC = filler.c parse.c utills.c
 
 
 SRC_OBJ =$(SRC:.c=.o)
